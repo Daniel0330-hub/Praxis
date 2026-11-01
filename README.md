@@ -1,4 +1,4 @@
-# 知行学伴 Zhixing · AI 自主学习 Agent
+# 知行学伴 Praxis · AI 自主学习 Agent
 
 > 将 Canvas / CourseWorks 中分散的 syllabus、课件、教材与作业，重建为可追溯知识地图、证据约束问答和自适应练习闭环。
 
