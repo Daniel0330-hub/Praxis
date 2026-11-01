@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Praxis知行伴学 · Learning OS</title>
+  <link rel="stylesheet" href="formal-styles.css">
+  <link rel="stylesheet" href="formal-status.css">
+</head>
+<body>
+  <aside class="global-nav">
+    <div class="brand-mark">知</div>
+    <button class="global-link active" data-view="dashboard"><span>▦</span><small>Dashboard</small></button>
+    <button class="global-link" data-view="timeline"><span>◷</span><small>Timeline</small></button>
+    <button class="global-link" data-view="settings"><span>⚙</span><small>Settings</small></button>
+    <div class="nav-spacer"></div><div class="avatar">DL</div>
+  </aside>
+  <div class="app-shell">
+    <header class="topbar">
+      <div><div class="eyebrow" id="breadcrumb">Learning workspace</div><h1 id="pageTitle">Dashboard</h1></div>
+      <div class="top-actions"><button class="icon-button">♢<span class="notification-dot"></span></button><div class="date-chip" id="todayLabel"></div></div>
+    </header>
+    <main id="appContent" class="content"></main>
+  </div>
+  <div id="toast" class="toast" role="status"></div>
+  <script src="formal-data.js"></script><script src="formal-app.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+.status-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 13px 16px;
+  margin-bottom: 18px;
+  border: 1px solid #f1d29b;
+  border-radius: 11px;
+  background: #fff8e8;
+  color: #805c17;
+}
+.status-banner.ai-off {
+  border-color: #cbd8ef;
+  background: #f1f5fb;
+  color: #42536e;
+}
+.status-banner strong { display: block; }
+.status-banner small { display: block; margin-top: 2px; opacity: .8; }
+
+/* One stable, course-specific accent across Dashboard, course pages, and Timeline. */
+.course-themed .course-accent { background: var(--course-color); }
+.course-themed .course-code,
+.course-themed .course-nav-title strong,
+.course-themed .source-link { color: var(--course-color); }
+.course-themed .course-footer span:last-child { color: var(--course-color); font-weight: 700; }
+.course-themed .progress-fill,
+.course-layout.course-themed .primary,
+.course-themed .bar i { background: var(--course-color); }
+.course-layout.course-themed .course-tab:hover,
+.course-layout.course-themed .course-tab.active,
+.course-layout.course-themed .choice.selected { background: var(--course-soft); color: var(--course-color); }
+.course-layout.course-themed .map-root { border-left-color: var(--course-color); }
+.course-layout.course-themed .map-node { border-top-color: var(--course-color); }
+.course-themed .date-box { background: var(--course-soft); color: var(--course-color); }
+.timeline-item.course-themed .timeline-dot { background: var(--course-color); }
+.timeline-item.course-themed .timeline-content { border-left: 4px solid var(--course-color); }
+.timeline-item.course-themed .eyebrow { color: var(--course-color); }
+.course-color-legend { display: flex; flex-wrap: wrap; gap: 8px; margin: -8px 0 24px; }
+.course-color-key { display: inline-flex; align-items: center; gap: 7px; padding: 5px 9px; border: 1px solid var(--line); border-radius: 99px; background: #fff; color: #46546a; font-size: 11px; font-weight: 700; }
+.course-color-key i { width: 9px; height: 9px; border-radius: 50%; background: var(--course-color); }
